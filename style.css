@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,700");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.navbar-toggle {
+   
+    background: brown;
+
+}
+.icon-bar{
+    background: white;
+}
+
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+}
+nav a{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 800;
+    
+    color: gray;
+}
+nav a:hover{
+    background: brown !important;
+    color:  white !important;
+}
+.confirst{
+    padding-top: 60px;
+}
+body {
+  font-family: Quicksand;
+}
+.indexcon .col-md-4 h2{
+    margin-top: 32px;
+    margin-bottom: 22px;
+}
+.indexcon .col-md-4 p{
+    line-height: 23px;
+}
+.indexcon .col-md-4{
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+.jumbotron{
+    background: white;
+}
+.indexcon h2:hover{
+    color: brown;
+}
+.conser1 h3{
+    font-weight: 800;
+}
+.conser1 a{
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+    color: white;
+    
+}
+.conser1 a:hover{
+    transform: 2s;
+    color: rgba(165, 42, 42, 0.801);
+}
+
+/* about */
+
+.conabout .col-md-4{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.conabout .col-md-4 p{
+    font-size: 18px;
+    font-style: italic;
+    color: brown;
+    
+}
+
+/* career */
+.concareer h4{
+    font-weight: 700;
+}
+.confirst h2{
+    color: brown;
+    font-weight: 500;
+}
+.confirst h3{
+color: #d84410;
+font-weight:normal
+}
+.concareer ul li 
+{
+    
+    /* margin-bottom: 15px; */
+    font-size: 18px;
+    font-weight: 200;
+}
+
+/* about */
+.aboutbtn{
+    background: brown;
+    border: none;
+}
+/* contact */
+
+/* services */
+.sercon .img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.sercon2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sercon2 li{
+    font-size: 16px;
+    padding-bottom: 15px;
+  
+}
+/* .sercon h3{
+    font-weight: 600;
+} */
+.heading-second{
+    color: #333 !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    margin-top: 0px;
+}
+img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.serimgcon{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.serimgcon img{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.serconp p{
+    color: #3c3c3c;
+   
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+
+}
+
+/* e-commerce */
+.ecomconli ul{  
+    padding-top: 15px;
+}
+
+/* moblie app */
+.moblieappconh2 h2{
+    background: brown; color: white; padding: 15px; margin-top: 0;
+}
+
+/* domain */
+
+.domindon, .col-md-2, .col-md-4{
+    padding-top: 10px;
+}
+.moblieappconh2 h2:hover{
+    background: #e9582c; color: white;
+    
+}
+@media screen and (max-width: 1440px){
+    /* .sercon .col-md-6 .img1{
+        width: 200%;
+        } */
+}
+@media screen and (max-width: 991px){
+    .col-md-3:nth-child(2n+1){
+        clear:left;
+        width: 50%;
+    }
+    .col-md-4:nth-child(2n+1){
+        clear:left;
+        width: 50%;
+    }
+    .col-md-4:nth-child(n+1){
+        
+        width: 50%;
+    }
+    .col-md-3:nth-child(n+1){
+        
+        width: 50%;
+    }
+    .sercon .col-md-6{
+        width: 100%;
+    }
+    .sercon .col-md-6 img{
+    width: 100%;
+    }
+    .sercon2 .col-md-6{
+        width: 100%; 
+    }
+    .confirst{
+        padding-top: 100px;
+    }
+    .heading-second{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 768px)
+
+{
+    .col-md-3:nth-child(2n+1){
+       
+        width: 100%;
+    }
+    .col-md-4:nth-child(2n+1){
+       
+        width: 100%;
+    }
+    .col-md-3:nth-child(n+1){
+        
+        width: 100%;
+    }
+    .col-md-4:nth-child(n+1){
+        
+        width: 100%;
+    }
+    .conabout .col-md-4{
+        padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    /* .confirst{
+        padding-top: 100px;
+    } */
+}
+
+
